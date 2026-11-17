@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kamaljeet Singh | Full Stack Developer</title>
+  <meta name="description" content="Kamaljeet Singh - full stack developer (React, Next.js, Node.js, GraphQL, NestJS, Java) with 6+ years of experience." />
+  <link rel="stylesheet" href="style.css" />
+  <script type="importmap">
+    { "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a href="#home" class="logo">KS</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Kamaljeet Singh</h1>
+      <p class="tagline">Full stack developer building React/Next.js frontends and GraphQL microservice backends, from marketplaces to AI-powered SaaS.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://www.upwork.com/freelancers/reactnextjs" target="_blank" rel="noopener">Hire me on Upwork</a>
+        <a class="btn" href="https://github.com/Kamal882" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="#work">See projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About</h2>
+      <p>
+        I'm a full stack engineer with 6+ years of experience across the JavaScript/TypeScript ecosystem.
+        I've led front-end teams, built GraphQL microservice backends in Node.js, and shipped products for
+        clients in e-learning, marketplaces, fintech and AI. I'm currently an SDE1 at Cotiviti India,
+        working on Java backend services alongside JavaScript.
+      </p>
+      <p>
+        I'm comfortable with AWS, Docker and LLM integration through LangChain, and I like clear scope,
+        regular updates, and code the next developer can read.
+      </p>
+      <ul class="stats">
+        <li><strong>6+</strong><span>years experience</span></li>
+        <li><strong>20+</strong><span>microservices built (Subler)</span></li>
+        <li><strong>2+</strong><span>years leading a front-end team</span></li>
+      </ul>
+    </section>
+
+    <section id="skills" class="panel">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Frontend</h3>
+          <div class="chips"><span>React</span><span>Next.js</span><span>Angular</span><span>Redux</span><span>RxJS</span><span>TypeScript</span></div>
+        </div>
+        <div class="card">
+          <h3>UI systems</h3>
+          <div class="chips"><span>Ant Design</span><span>Material UI</span><span>Mantine</span><span>Bootstrap</span><span>Sass/SCSS</span><span>Emotion</span></div>
+        </div>
+        <div class="card">
+          <h3>Backend</h3>
+          <div class="chips"><span>Node.js</span><span>Express</span><span>NestJS</span><span>Apollo / GraphQL</span><span>REST</span><span>Microservices</span><span>Java</span></div>
+        </div>
+        <div class="card">
+          <h3>Data &amp; infra</h3>
+          <div class="chips"><span>MySQL</span><span>MariaDB</span><span>MongoDB</span><span>Prisma</span><span>AWS</span><span>Docker</span></div>
+        </div>
+        <div class="card">
+          <h3>AI</h3>
+          <div class="chips"><span>LangChain</span><span>OpenAI API</span><span>Google GenAI</span></div>
+        </div>
+        <div class="card">
+          <h3>Delivery</h3>
+          <div class="chips"><span>Agile/Scrum</span><span>Jira</span><span>Jenkins</span><span>GitLab CI/CD</span><span>Team leadership</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="panel">
+      <h2>Selected projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Subler</h3>
+          <p>Venue and space-rental marketplace. Built across three generations: 20+ Node/Express/GraphQL microservices (auth, bookings, pricing, availability, messaging, reviews) and three Next.js 15 apps (marketplace, admin, reviewer), with Stripe payments and Google Maps.</p>
+          <div class="chips"><span>Next.js 15</span><span>GraphQL</span><span>Stripe</span><span>Microservices</span></div>
+        </article>
+        <article class="card">
+          <h3>CloverQ</h3>
+          <p>AI-assisted case management SaaS with case tracking, deadlines, document tagging and role-based access. The AI layer uses LangChain with OpenAI and Google GenAI. Containerized with Docker.</p>
+          <div class="chips"><span>Next.js</span><span>Prisma</span><span>LangChain</span><span>Docker</span></div>
+        </article>
+        <article class="card">
+          <h3>Powur Referral Network</h3>
+          <p>A family of solar-energy referral and payments platforms (Powur, Dahon, BPS referral system, Card Order Platform) sharing one Apollo/GraphQL/Express backend and an Ant Design/React frontend.</p>
+          <div class="chips"><span>React</span><span>Apollo</span><span>Express</span><span>Ant Design</span></div>
+        </article>
+        <article class="card">
+          <h3>EdTech portfolio</h3>
+          <p>ClassLogic (Angular admin with Firebase phone-OTP login and JWT refresh), Kaabil Kids, Mobiurja (React on Sanity CMS plus Angular admin) and Square Panda, an interactive phonics site for children.</p>
+          <div class="chips"><span>Angular</span><span>React</span><span>Firebase</span><span>Sanity</span></div>
+        </article>
+        <article class="card">
+          <h3>Huego</h3>
+          <p>Scheduling and booking app built with React and MUI on Apollo Client and AWS Amplify, with Mailchimp transactional email and Sentry monitoring.</p>
+          <div class="chips"><span>React</span><span>MUI</span><span>AWS Amplify</span><span>Sentry</span></div>
+        </article>
+        <article class="card">
+          <h3>Internal tools &amp; automation</h3>
+          <p>Fizno (Yarn-workspaces monorepo: Express API, Next.js UI, notifications service), ManagementPro (Next.js/Prisma/NextAuth admin), About Pathankot (civic site) and Connect (Puppeteer scripts exporting to Excel).</p>
+          <div class="chips"><span>Monorepo</span><span>NextAuth</span><span>Puppeteer</span></div>
+        </article>
+      </div>
+      <p class="more"><a class="link" href="https://github.com/Kamal882" target="_blank" rel="noopener">More on GitHub: github.com/Kamal882 &rarr;</a></p>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Let's talk</h2>
+      <p>Available for freelance full stack and backend work. Tell me what you're building.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://www.upwork.com/freelancers/reactnextjs" target="_blank" rel="noopener">Hire me on Upwork</a>
+        <!-- TODO: replace with your real email and LinkedIn -->
+        <a class="btn" href="mailto:you@example.com">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Kamal882" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Kamaljeet Singh</footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
